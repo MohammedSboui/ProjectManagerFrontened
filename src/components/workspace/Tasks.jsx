@@ -4,8 +4,8 @@ import { Note } from "./Note";
 import { Header } from "./Header";
 export const Tasks = () => {
   const [data, Setdata] = React.useState({
-    todo: [{ id: 1, content: "WAAAA" }],
-    doing: [{ id: 3, content: "GGG" }],
+    todo: [{ id: 1, content: "Tache 1" }],
+    doing: [{ id: 3, content: "Tache2" }],
     done: [],
   });
   const wa = window.location.href.split("/");
@@ -63,7 +63,7 @@ export const Tasks = () => {
               {...provided.droppableProps}
               className="list"
               style={{
-                background: snapshot.isDraggingOver ? "lightblue" : "#f2a365",
+                background: snapshot.isDraggingOver ? "lightblue" : "#65edf2",
               }}
             >
               <h1>TODO</h1>
@@ -82,7 +82,7 @@ export const Tasks = () => {
               {...provided.droppableProps}
               className="list"
               style={{
-                background: snapshot.isDraggingOver ? "lightblue" : "#f2a365",
+                background: snapshot.isDraggingOver ? "lightblue" : "#65edf2",
               }}
             >
               <h1>Doing</h1>
@@ -102,7 +102,7 @@ export const Tasks = () => {
               {...provided.droppableProps}
               className="list"
               style={{
-                background: snapshot.isDraggingOver ? "lightblue" : "#f2a365",
+                background: snapshot.isDraggingOver ? "lightblue" : "#65edf2",
               }}
             >
               <h1>Done</h1>

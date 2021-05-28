@@ -64,7 +64,7 @@ function Log(props) {
       <div className={classes.root}>
         <Card>
           <Image
-            src="https://www.clipartkey.com/mpngs/m/65-651790_user-icon-login-logo.png"
+            src="https://scontent.ftun2-1.fna.fbcdn.net/v/t1.15752-9/188792798_808295299801304_659048569225669948_n.png?_nc_cat=107&ccb=1-3&_nc_sid=ae9488&_nc_ohc=XuRC7Z5-yAkAX-XN1R5&_nc_ht=scontent.ftun2-1.fna&oh=b33fe991e53ef64c01681ac7189cfbb9&oe=60CDAF1B"
             wrapped
             ui={false}
           />
@@ -89,7 +89,12 @@ function Log(props) {
                   />
                 </Form.Field>
 
-                <Button style={{ width: "100%" }} primary onClick={submit}>
+                <Button
+                  background-color="black "
+                  style={{ width: "100%" }}
+                  primary
+                  onClick={submit}
+                >
                   Login
                 </Button>
               </Form>

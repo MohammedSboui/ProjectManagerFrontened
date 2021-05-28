@@ -1,6 +1,7 @@
 import axios from "axios";
 import React from "react";
 import { Header } from "./Header";
+import Report from "./Report";
 export const Home = () => {
   const [user, setUser] = React.useState({});
   React.useEffect(() => {
@@ -13,7 +14,7 @@ export const Home = () => {
   return (
     <div>
       <Header />
-      {user.role} !!!
+      <Report />
     </div>
   );
 };

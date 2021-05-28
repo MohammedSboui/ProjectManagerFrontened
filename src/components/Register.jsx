@@ -92,7 +92,7 @@ function Regis(props) {
       <div className={classes.root}>
         <Card>
           <Image
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLAvTdqXwWiQOnU2YFPDPfUshrnyvmRiR4Ow&usqp=CAU"
+            src="https://t3.ftcdn.net/jpg/00/66/46/84/240_F_66468442_ds3s8OPIgA6IJ2bGUUocEIG3cGcyopaI.jpg"
             wrapped
             ui={false}
           />
