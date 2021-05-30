@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Home } from "./workspace/Home";
 import { Tasks } from "./workspace/Tasks";
 import { Projects } from "./workspace/Projects";
+import Addproject from './workspace/AddProjects'
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,10 @@ function App() {
           <Route
             path="/projects"
             component={localStorage.getItem("USERID") ? Projects : Login}
+          />
+          <Route
+            path="/add-project"
+            component={localStorage.getItem("USERID") ? Addproject : Login}
           />
           <Route
             path="/project/:id"
